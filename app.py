@@ -9,7 +9,7 @@ app = Flask(__name__)
 warnings.filterwarnings("ignore", category=UserWarning, module="sklearn")
 
 # Load the model
-model = pickle.load(open('flight_price_model.pkl', 'rb'))
+model = pickle.load(open('XGBoost_model.pkl', 'rb'))
 
 @app.route('/')
 def home():

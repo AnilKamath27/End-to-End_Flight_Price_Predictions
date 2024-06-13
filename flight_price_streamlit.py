@@ -30,6 +30,7 @@ if st.button("Predict price"):
              "class":class_,
              "duration":duration,
              "days_left":days_left,
+             
     }                     
 
     input_data = pd.DataFrame(data,index=[0])
